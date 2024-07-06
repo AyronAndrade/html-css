@@ -1,0 +1,4 @@
+Azul escuro #3a4af0
+Azul Claro  #3aaaf0
+Amarelo     #f0ec00
+Laranja     #f0bf0f

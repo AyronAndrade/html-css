@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="shortcut icon" href="Icon/Iconesite.ico" type="image/x-icon">
+    <title>Midias Em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <hr>
+    <p>Tente abrir esse site em varis dispositivos diferentes ou aumentar e diminuir a tamanho do seu navegador</p>
+    <Picture>
+        <source media="(Max-width: 750px)" srcset="Imagem/Foto-P.png">
+        <source media="(Max-width: 1050px)" srcset="Imagem/Foto-M.png">
+        <img src="Imagem/Foto-G.png" alt="imagem flexivel">
+    </Picture>
+    <hr>
+    <h1>Reproduzir Audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="Midia/Musica1.mp3" type="audio/mpeg">
+        <p><a href="Midia/Musica1.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;    
+    background-color: rgb(165, 235, 162);
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 15px;
+}
+
+strong{
+    color: green;
+}
+
+
+h2{
+    font-family: idroid;
+    color: green;
+    background: linear-gradient( to right, rgb(167, 241, 167), rgba(94, 238, 94, 0));
+}
+
+nav{
+    text-align: left;
+    }
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    padding: 50px 0px;
+}
+
+header >p{
+    padding: 30px;
+}
+
+main{
+    background-color: aliceblue;
+    padding: 10px 10px;
+    margin: 0px 100px;
+    
+}
+main >h1{
+    font-family: idroid;
+    color: green;
+}
+
+div#video{
+
+    background-color: rgb(35, 94, 1);
+    text-align: center;
+    width: 200;
+    
+}
+h3{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+div#aprender{
+    background-color: rgba(120, 223, 120, 0.637);
+    border-radius: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(1, 41, 1);
+    color: rgb(134, 228, 105);
+}
+
+footer >strong{
+    color: white;
+}
