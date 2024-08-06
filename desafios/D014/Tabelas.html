@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14</title>
+    <style> 
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+        }
+        
+        th, td {
+            border: 2px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+
+        .amarelo {
+            background-color: yellow;
+        }
+
+        .vermelho {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+
+        <colgroup>
+            <col class="amarelo"> 
+            <col class="vermelho"> 
+            <col class="amarelo"  span="2"> 
+            <col class="vermelho">
+        </colgroup>
+        <thead>
+            <tr>
+                <th class="col" rowspan="2">Area</th>
+                <th class="col" rowspan="2">Disciplina</th>
+                <th class="col" colspan="2">Notas</th>
+                <th class="col" rowspan="2">Media</th>
+            </tr>
+
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="4">Exatas</td>
+                <td>Matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4">Media de Exatas</th>
+                <th>0.0</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Humanas</td>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">Media de Humanas</th>
+                <th>0.0</th>
+            </tr>
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>
